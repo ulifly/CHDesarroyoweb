@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="#" alt="logo" class="logo" />
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tabla.html">Funciones</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    Contacto
+    <div>
+      <form action="">
+        <fieldset>
+          <legend>Formulario de contacto</legend>
+          <div>
+            <label for="nombre">nombre: </label>
+            <input type="text" name="nombre" id="nombre" required />
+            <br />
+            <br />
+            <label for="apellido">apellido:</label>
+            <input type="text" name="apellido" id="apellido" />
+            <br />
+            <br />
+            <label for="email">e-mail: </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <br />
+          <div>
+            <div>genero</div>
+            hombre
+            <input type="radio" name="genero" value="h" />
+            mujer
+            <input type="radio" name="genero" value="m" />
+            no binario
+            <input type="radio" name="genero" value="nb" />
+          </div>
+          <br />
+          <div>
+            motivo de contacto
+            <select name="motivo" id="motivo">
+              <option value="1">apoyo a la pagina</option>
+              <option value="2">denunciar a un usuario</option>
+              <option value="3">problemas con la pagina</option>
+              <option value="4">otro...</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            ¿estas de acuerdo con compartir tu informacion?
+            <input type="checkbox" name="agree" value="true" />
+          </div>
+          <br />
+          <div>
+            <label for="mensaje">Mensaje</label>
+            <br />
+            <br />
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <br />
+          <input type="submit" value="enviar" />
+          <input type="reset" value="borrar" />
+        </fieldset>
+      </form>
+    </div>
+    <a href="index.html">Volver al inicio</a>
+  </body>
+</html>

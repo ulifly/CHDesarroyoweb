@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>informacion personal</legend>
+        <div>
+          Sexo:
+          <br />
+          <input type="radio" name="sexo" value="h" />
+          hombre
+          <input type="radio" name="sexo" value="m" />
+          mujer
+        </div>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <br />
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="primer nombre"
+            required
+          />
+          <br />
+          <br />
+          <label for="apellido">Apellido:</label>
+          <br />
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="inserta tu apellido"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          Talla
+          <select name="talla" id="talla">
+            <option value="l">Large</option>
+            <option value="m">Medium</option>
+            <option value="s">Small</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <input type="submit" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
