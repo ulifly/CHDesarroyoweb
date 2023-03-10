@@ -1,0 +1,22 @@
+body {
+  display: flex;
+}
+
+.card {
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+
+.card__image {
+  max-width: 280px;
+}
+.card--light {
+  background: #eee;
+}
+
+.card--dark {
+  background: #333;
+  color: white;
+}
