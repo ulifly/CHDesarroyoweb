@@ -1,7 +1,15 @@
+* {
+  margin:0;
+  padding:0;
+}
+
 nav {
   background-color: #303f9f;
   color: #ffffff;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  border-top: 0px;
+
+}
+
+.navdecoration {
+  background-color:rgb( 22, 12, 40);
+  padding: 30px;
 }
