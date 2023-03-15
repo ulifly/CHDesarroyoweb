@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: #0033ff;
+    font-family: 'Lobster', cursive;
+    line-height: 1.5;
+    font-size: 12px;
+    background-color: yellowgreen;
+}
