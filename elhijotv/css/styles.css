@@ -4,31 +4,49 @@
   box-sizing: border-box;
 }
 
-nav {
+.nav {
   background-color: #303f9f;
   color: #ffffff;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  margin-right: 40px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-self: auto;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+nav a {
   text-decoration: none;
+  color: rgba(215, 223, 239, 0.86);
 }
 
 .navdecoration {
+  position: fixed;
   background-color: rgb(22, 12, 40);
   padding: 15px;
 }
+
 .carrousel {
   display: flex;
-  width: 600px;
-  height: 430px;
+  width: 1000px;
+  height: 630px;
+  margin-top: 60px;
 }
 
 .carrousel img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
-  opacity: .8;
-  transition: .5s;
+  opacity: 0.8;
+  transition: 0.5s;
 }
 .carrousel img:hover {
-  cursor: crosshair;
+  cursor: pointer;
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
