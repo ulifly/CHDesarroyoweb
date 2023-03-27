@@ -1,0 +1,30 @@
+/*reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.padre {
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+.hijo {
+  padding: 10px;
+}
+
+.hijo1 {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: crimson;
+}
+
+.hijo2 {
+  background-color: blue;
+}
+
+.hijo3 {
+  background-color: green;
+}

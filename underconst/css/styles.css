@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(23, 50, 125, 50);
+  color: aliceblue;
+  font-size: large;
+}
+
+.imagen img {
+  width: 600px;
+  height: 400px;
+}
+
+.parrafo {
+  font-weight: 700;
+}
+button {
+  color: black;
+  background-color: rgb(170, 202, 225);
+}
+.logo {
+  border-radius: 50%;
+}
+.juegos {
+  border-radius: 20px;
+}
