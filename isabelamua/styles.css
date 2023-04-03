@@ -60,6 +60,7 @@ nav ul li {
   padding-bottom: 1.5rem;
   position: relative;
   bottom: 300px;
+  margin-left: 30px;
 }
 .video_side_box li {
   list-style: none;
