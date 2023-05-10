@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blanchedalmond;
+}
+header img {
+  width: 50px;
+  border-radius: 50%;
+  border-color: black;
+  border: 2px solid;
+  display: inline-block;
+}
+
+header {
+  background-color: rgb(90, 121, 183);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a {
+  color: aqua;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav ul li a:hover {
+  color: greenyellow;
+}
+
+/* main index */
+main {
+  margin: 20px 20px 20px 20px;
+}
+
+.banner {
+  background-image: url(/isabelamua/img/pexels-suzy-hazelwood-1327689.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+.banner h1 {
+  font-size: 4rem;
+}
+.banner p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.card {
+  width: 300px;
+  height: 400px;
+  border: 1px solid blue;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.card img {
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 20px;
+  background-origin: padding-box;
+}
+
+.mini img {
+  width: 40px;
+  margin: 20px;
+}

@@ -1,0 +1,94 @@
+/*reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  background-color: #61b644;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  opacity: 0.35;
+}
+
+/* stilo foooter*/
+
+.footer {
+  background-color: black;
+  padding-top: 1rem;
+}
+
+.footer-sm {
+  background-color: #212121;
+  color: white;
+}
+
+.footer-sm a {
+  color: white;
+}
+.footer-sm a i {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.footer-bottom {
+  padding: 1.5rem 0;
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+}
+
+.footer-bottom__copyright a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-bottom__copyright a:hover {
+  color: #61b644;
+  text-decoration: underline;
+}

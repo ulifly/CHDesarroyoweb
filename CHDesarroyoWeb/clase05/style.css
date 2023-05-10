@@ -1,13 +1,15 @@
 /*reset css*/
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 .padre {
-  background-color: cadetblue;
-  padding: 10px;
+  background-color: black;
+  padding: 30px;
+  top: 10px;
+  position: relative;
 }
 
 .hijo {
@@ -15,16 +17,39 @@
 }
 
 .hijo1 {
-  position: relative;
-  top: 10px;
-  left: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: crimson;
+  text-align: right;
 }
 
 .hijo2 {
   background-color: blue;
+  text-align: center;
+  
 }
 
 .hijo3 {
   background-color: green;
+
+}
+
+.hijo1:hover {
+  background-color: black;
+  color: white;
+  
+}
+.hijo2:hover {
+    background-color: red;
+    color: aliceblue;
+}
+.hijo3:hover{
+  background-color: aqua;
+  color: yellowgreen;
+}
+.hijo3:active {
+  color: green;
+  background-color: black;
+
 }
