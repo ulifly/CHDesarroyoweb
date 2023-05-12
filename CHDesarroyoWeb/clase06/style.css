@@ -6,11 +6,14 @@
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .flex-item {
+  box-shadow: 8px 10px 15px 5px #000000;
   width: 200px;
   margin: 10px;
   border: 3px solid black;
